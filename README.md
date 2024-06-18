@@ -16,4 +16,8 @@ To get started with Love Maths, follow these steps:
 
 1. Clone the repository:
    ```bash
+<<<<<<< HEAD
    git clone <repository_url># Love-Maths
+=======
+   git clone <repository_url># Love-Maths
+>>>>>>> 5f90ea00b34f1e733db21b9319658e64806fb48a

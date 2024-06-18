@@ -65,8 +65,10 @@ function checkAnswer() {
 
     if (isCorrect) {
         alert("Hey! You got it right! :D");
+        incrementScore();
     } else {
         alert('Awwww.... you answered ${userAnswer}. The correct answer was ${calculatedCorrectAnswer[0]}!');
+        incrementWrongAnswer();
     }
 
     runGame(calculatedAnswer[1]);
